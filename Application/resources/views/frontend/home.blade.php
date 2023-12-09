@@ -88,7 +88,7 @@
             </div>
         </header>
     </div>
-    {!! ads_home_page_top() !!}
+    {{-- {!! ads_home_page_top() !!} --}}
     @if ($features->count() > 0)
         <section id="features" class="section-content">
             <div class="container">
@@ -119,7 +119,7 @@
             </div>
         </section>
     @endif
-    @if (licenseType(2))
+/**     @if (licenseType(2))
         @if (showPlansByInterval(1)->count() > 0 || showPlansByInterval(2)->count() > 0 || showPlansByInterval(3)->count() > 0)
             <section id="pricing" class="section-content bg">
                 <div class="container">
@@ -133,7 +133,8 @@
                 </div>
             </section>
         @endif
-    @endif
+    @endif 
+    */
     @if ($blogArticles->count() > 0 && $settings['website_blog_status'])
         <section id="blog" class="section-content">
             <div class="container">
@@ -190,7 +191,7 @@
             </div>
         </section>
     @endif
-    {!! ads_home_page_bottom() !!}
+   {{-- {!! ads_home_page_bottom() !!} --}}
     @if ($faqs->count() > 0 && $settings['website_faq_status'])
         <section id="faq" class="section-content bg-primary">
             <div class="container">
