@@ -1,0 +1,15 @@
+@if (licenseType(2))
+        @if (showPlansByInterval(1)->count() > 0 || showPlansByInterval(2)->count() > 0 || showPlansByInterval(3)->count() > 0)
+            <section id="pricing" class="section-content bg">
+                <div class="container">
+                    <div class="section-content-header text-center mb-4">
+                        <p class="section-content-title h2 mb-3">{{ lang('Pricing', 'home page') }}</p>
+                        <div class="col-lg-8 col-xl-6 mx-auto">
+                            <p class="text-muted">{{ lang('Pricing description', 'home page') }}</p>
+                        </div>
+                    </div>
+                    @include('frontend.global.includes.plans')
+                </div>
+            </section>
+        @endif
+    @endif 
