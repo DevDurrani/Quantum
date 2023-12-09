@@ -3,7 +3,7 @@
     const config = {
         lang: "{{ getLang() }}",
         baseURL: "{{ url('/') }}",
-        countryCode: "{{ vIpInfo()->country_code == 'Unknown' ? 'US' : vIpInfo()->country_code }}",
+        countryCode: "{{ vIpInfo()->country_code == 'Unknown' ? 'IN' : vIpInfo()->country_code }}",
         primaryColor: "{{ $settings['website_primary_color'] }}",
         secondaryColor: "{{ $settings['website_secondary_color'] }}",
         alertActionTitle: "{{ lang('Are you sure?') }}",
