@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Application/vironeer" isTestSource="false" packagePrefix="Vironeer\" />
       <sourceFolder url="file://$MODULE_DIR$/Application/vironeer/License" isTestSource="false" packagePrefix="Vironeer\License\" />
       <sourceFolder url="file://$MODULE_DIR$/Application/vironeer/License/app" isTestSource="false" packagePrefix="Vironeer\License\App\" />
+      <excludeFolder url="file://$MODULE_DIR$/Application/storage/app" />
+      <excludeFolder url="file://$MODULE_DIR$/Application/storage/framework" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
