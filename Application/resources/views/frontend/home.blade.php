@@ -20,6 +20,7 @@
 @include('frontend.includes.adblock-detection')
 
 <body>
+    <h1>os vali ki ma ki @#$%</h1>
     <div class="page-slider">
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -119,7 +120,7 @@
             </div>
         </section>
     @endif
-  
+
     @if ($blogArticles->count() > 0 && $settings['website_blog_status'])
         <section id="blog" class="section-content">
             <div class="container">
