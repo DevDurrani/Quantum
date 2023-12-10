@@ -20,7 +20,6 @@
 @include('frontend.includes.adblock-detection')
 
 <body>
-    <h1>os vali ki ma ki @#$%</h1>
     <div class="page-slider">
         <div class="swiper">
             <div class="swiper-wrapper">
