@@ -46,9 +46,9 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Vendor\\Vironeer\\": "vendor/vironeer/",
-            "Vendor\\Vironeer\\License\\": "vendor/vironeer/License/",
-            "Vendor\\Vironeer\\License\\App\\": "vendor/vironeer/License/app",
+            "App\\Vironeer\\": "app/vironeer/",
+            "App\\Vironeer\\License\\": "app/vironeer/License/",
+            "App\\Vironeer\\License\\App\\": "app/vironeer/License/app",
             "Vironeer\\Addons\\": "addons/src/",
             "Vironeer\\Addons\\App\\": "addons/src/app/"
         },
