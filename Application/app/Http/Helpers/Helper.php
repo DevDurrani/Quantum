@@ -1207,6 +1207,7 @@ function currencies()
         3 => ["name" => "Czech Republic Koruna", "code" => "CZK", "symbol" => "Kč"],
         4 => ["name" => "Euro", "code" => "EUR", "symbol" => "€"],
         5 => ["name" => "US Dollar", "code" => "USD", "symbol" => "$"],
+        6 => ["name" => "Indian Rupee", "code" => "INR", "symbol" => "₹"],
     ];
     return $currency_list;
 }

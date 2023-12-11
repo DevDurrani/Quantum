@@ -1,5 +1,5 @@
 @extends('backend.layouts.application')
-@section('title', __('Dashboard'))
+@section('title', __('Command Center'))
 @section('access', 'Quick Access')
 @section('content')
     @if (!$settings['mail_status'])
