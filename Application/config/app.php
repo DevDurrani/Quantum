@@ -172,7 +172,7 @@ return [
          * Encryption License Providers via CRC 32
          * QuantumSafe 2023
          */
-        App\Encryption\License\VironeerLicenseServiceProvider::class,
+        App\Vironeer\License\VironeerLicenseServiceProvider::class,
 
         /*
          * Application Service Providers...

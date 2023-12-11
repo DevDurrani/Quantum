@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Encryption\License\App\Http\Middleware;
+namespace Vendor\Vironeer\License\App\Http\Middleware;
 
 use Closure;
 

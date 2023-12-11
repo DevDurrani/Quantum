@@ -2,7 +2,7 @@
 
 function licenseType($type = null)
 {
-    $licenseType = config('Encryption.system.license_type');
+    $licenseType = config('vironeer.system.license_type');
     if ($type) {
         return ($type == $licenseType) ? true : false;
     } else {

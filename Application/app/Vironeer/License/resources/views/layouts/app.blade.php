@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ asset('assets/vendor/install/img/favicon.ico') }}" />
-    <title>{{ __('Encryption Installer') }} - @yield('title')</title>
+    <title>{{ __('Vironeer Installer') }} - @yield('title')</title>
     <link rel="stylesheet" href="{{ asset('assets/vendor/libs/bootstrap/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendor/libs/fontawesome/fontawesome.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendor/install/css/app.min.css') }}" />
@@ -22,7 +22,7 @@
             <div class="vironeer-background-img d-none d-lg-block">
                 <h4 class="vironeer-background-title mb-5">{{ __('A few clicks to get your website ready to use') }}
                 </h4>
-                <img src="{{ asset('assets/vendor/install/img/steps.svg') }}" alt="{{ __('Encryption Installer') }}" />
+                <img src="{{ asset('assets/vendor/install/img/steps.svg') }}" alt="{{ __('Vironeer Installer') }}" />
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@
                 <div class="col-12 col-sm-6 mb-3 mb-sm-0">
                     <div class="vironeer-copyright d-flex justify-content-center justify-content-sm-start">
                         <p class="mb-0">&copy; <span data-year></span>
-                            {{ __('Encryption - All rights reserved.') }}
+                            {{ __('Vironeer - All rights reserved.') }}
                         </p>
                     </div>
                 </div>
