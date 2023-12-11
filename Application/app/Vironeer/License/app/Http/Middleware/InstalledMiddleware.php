@@ -8,7 +8,7 @@ class InstalledMiddleware
 {
     public function handle($request, Closure $next)
     {
-        if (config('vironeer.install.complete')) {
+        if (config('Vironeer.install.complete')) {
             return redirect('/');
         }
         return $next($request);

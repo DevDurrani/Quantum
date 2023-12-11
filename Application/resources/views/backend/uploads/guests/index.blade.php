@@ -173,6 +173,6 @@
     </div>
     {{ $fileEntries->links() }}
     @push('styles_libs')
-        <link rel="stylesheet" href="{{ asset('assets/vendor/libs/Encryption/Encryption-icons.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendor/libs/Vironeer/Vironeer-icons.min.css') }}">
     @endpush
 @endsection
