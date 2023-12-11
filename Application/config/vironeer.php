@@ -14,8 +14,8 @@ return [
      */
 
     'item' => [
-        'alias' => 'quantumsafe', // Item alias
-        'version' => '0.9', // Item version
+        'alias' => 'filebob', // Item alias
+        'version' => '1.8', // Item version
     ],
 
     /*

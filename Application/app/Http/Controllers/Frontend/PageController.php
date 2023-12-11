@@ -29,7 +29,7 @@ class PageController extends Controller
         return view('frontend.faq', ['faqs' => $faqs]);
     }
 
-    public function contactus()
+    public function contact()
     {
         abort_if(!settings('website_contact_form_status'), 404);
         return view('frontend.contact');

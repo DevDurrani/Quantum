@@ -1,11 +1,11 @@
 (function($) {
     "use strict";
-    const ctxUsers = $('#Vironeer-users-charts'),
-        ctxEarnings = $('#Vironeer-earnings-charts'),
-        ctxUploads = $('#Vironeer-uploads-charts'),
-        ctxBrowsers = $('#Vironeer-browsers-charts'),
-        ctxOs = $('#Vironeer-os-charts'),
-        ctxCountries = $('#Vironeer-countries-charts');
+    const ctxUsers = $('#vironeer-users-charts'),
+        ctxEarnings = $('#vironeer-earnings-charts'),
+        ctxUploads = $('#vironeer-uploads-charts'),
+        ctxBrowsers = $('#vironeer-browsers-charts'),
+        ctxOs = $('#vironeer-os-charts'),
+        ctxCountries = $('#vironeer-countries-charts');
     const charts = {
         initUsers: function() { this.usersChartsData() },
         initEarnings: function() { this.earningsChartsData() },

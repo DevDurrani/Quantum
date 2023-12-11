@@ -255,13 +255,12 @@ Route::group(localizeOptions(), function () {
             });
         });
     });
-
     Route::group(['namespace' => 'Frontend', 'middleware' => ['verified', '2fa.verify']], function () {
         Route::post('upload', 'UploadController@upload');
         Route::post('plan/{id}/{type}', 'SubscribeController@subscribe')->name('subscribe')->middleware('saas');
         Route::middleware('isSubscribed')->group(function () {
             Route::get('/', 'HomeController@index')->name('home');
-            Route::get('contact-us', 'PageController@contactus')->name('contactus');
+            Route::get('contact-us', 'PageController@contact')->name('contact');
             Route::post('contact-us/send', 'PageController@contactSend');
             Route::get('page/{slug}', 'PageController@pages')->name('page');
             Route::name('blog.')->prefix('blog')->middleware('disable.blog')->group(function () {
@@ -284,7 +283,7 @@ Route::group(localizeOptions(), function () {
     });
     Route::get('cookie/accept', 'Frontend\ExtraController@cookie')->middleware('ajax.only');
     Route::get('popup/close', 'Frontend\ExtraController@popup')->middleware('ajax.only');
-    if (config('Vironeer.install.complete') && !settings('website_language_type')) {
+    if (config('vironeer.install.complete') && !settings('website_language_type')) {
         Route::get('{lang}', 'Frontend\LocalizationController@localize')->name('localize');
     }
 });

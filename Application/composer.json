@@ -49,8 +49,8 @@
             "App\\Vironeer\\": "app/Vironeer/",
             "App\\Vironeer\\License\\": "app/Vironeer/License/",
             "App\\Vironeer\\License\\App\\": "app/Vironeer/License/app",
-            "Vironeer\\Addons\\": "addons/src/",
-            "Vironeer\\Addons\\App\\": "addons/src/app/"
+            "App\\Vironeer\\Addons\\": "addons/src/",
+            "App\\Vironeer\\Addons\\App\\": "addons/src/app/"
         },
         "files": [
             "app/Http/Helpers/Helper.php",

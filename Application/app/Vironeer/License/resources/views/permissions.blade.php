@@ -11,32 +11,31 @@
     </div>
     <div class="vironeer-requirements">
         <div class="card">
-            <div class="card-header bg-dark text-white"><i
-                        class="fas fa-folder-open me-2"></i>{{ __('File Permissions') }}
+            <div class="card-header bg-dark text-white"><i class="fas fa-folder-open me-2"></i>{{ __('File Permissions') }}
             </div>
             <div class="card-body p-0 border-0">
                 <table class="table table-bordered table-striped">
                     <thead>
-                    <tr>
-                        <th>{{ __('Files') }}</th>
-                        <th class="text-center">{{ __('Permission status') }}</th>
-                    </tr>
+                        <tr>
+                            <th>{{ __('Files') }}</th>
+                            <th class="text-center">{{ __('Permission status') }}</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    @foreach ($permissions as $permission)
-                        <tr>
-                            <td><i
-                                        class="fas fa-folder-open me-2"></i>{{ str_replace(base_path() . 'permissions.blade.php/', '', $permission) }}
-                            </td>
-                            <td class="text-center">
-                                @if (filePermissionValidation($permission))
-                                    <i class="fas fa-check me-2"></i> {{ __('Enabled Permission') }}
-                                @else
-                                    <i class="fas fa-times me-2"></i> {{ __('Permission Required') }}
-                                @endif
-                            </td>
-                        </tr>
-                    @endforeach
+                        @foreach ($permissions as $permission)
+                            <tr>
+                                <td><i
+                                        class="fas fa-folder-open me-2"></i>{{ str_replace(base_path() . '/', '', $permission) }}
+                                </td>
+                                <td class="text-center">
+                                    @if (filePermissionValidation($permission))
+                                        <i class="fas fa-check me-2"></i> {{ __('Enabled Permission') }}
+                                    @else
+                                        <i class="fas fa-times me-2"></i> {{ __('Permission Required') }}
+                                    @endif
+                                </td>
+                            </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>

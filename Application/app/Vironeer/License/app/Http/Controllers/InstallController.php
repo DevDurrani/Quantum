@@ -30,7 +30,7 @@ class InstallController extends Controller
 
     public function requirements()
     {
-        if (config('Vironeer.install.requirements')) {
+        if (config('vironeer.install.requirements')) {
             return redirect()->route('install.permissions');
         }
 
@@ -68,8 +68,8 @@ class InstallController extends Controller
 
     public function permissions()
     {
-        if (config('Vironeer.install.file_permissions')) {return redirect()->route('install.licence');}
-        if (!config('Vironeer.install.requirements')) {return redirect()->route('install.requirements');}
+        if (config('vironeer.install.file_permissions')) {return redirect()->route('install.licence');}
+        if (!config('vironeer.install.requirements')) {return redirect()->route('install.requirements');}
 
         $error = 0;
         $permissions = filePermissions();
@@ -91,11 +91,11 @@ class InstallController extends Controller
 
     public function licence()
     {
-        if (config('Vironeer.install.license')) {
+        if (config('vironeer.install.license')) {
             return redirect()->route('install.information.database');
         }
 
-        if (!config('Vironeer.install.file_permissions')) {
+        if (!config('vironeer.install.file_permissions')) {
             return redirect()->route('install.requirements');
         }
 
@@ -111,11 +111,11 @@ class InstallController extends Controller
 
     public function database()
     {
-        if (config('Vironeer.install.database_info')) {
+        if (config('vironeer.install.database_info')) {
             return redirect()->route('install.information.databaseImport');
         }
 
-        if (!config('Vironeer.install.license')) {
+        if (!config('vironeer.install.license')) {
             return redirect()->route('install.licence');
         }
 
@@ -157,11 +157,11 @@ class InstallController extends Controller
 
     public function databaseImport()
     {
-        if (config('Vironeer.install.database_import')) {
+        if (config('vironeer.install.database_import')) {
             return redirect()->route('install.information.building');
         }
 
-        if (!config('Vironeer.install.database_info')) {
+        if (!config('vironeer.install.database_info')) {
             return redirect()->route('install.information.database');
         }
 
@@ -211,11 +211,11 @@ class InstallController extends Controller
     public function building()
     {
 
-        if (!config('Vironeer.install.database_import')) {
+        if (!config('vironeer.install.database_import')) {
             return redirect()->route('install.information.databaseImport');
         }
 
-        if (config('Vironeer.install.complete')) {
+        if (config('vironeer.install.complete')) {
             return redirect('/');
         }
 

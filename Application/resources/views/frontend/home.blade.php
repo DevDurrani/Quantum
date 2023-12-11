@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="{{ asset('assets/vendor/libs/swiper/swiper-bundle.min.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.min.css') }}">
         @if (subscription()->is_subscribed)
-            <link rel="stylesheet" href="{{ asset('assets/vendor/libs/Vironeer/Vironeer-icons.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/vendor/libs/vironeer/vironeer-icons.min.css') }}">
         @endif
     @endpush
     @include('frontend.includes.styles')
@@ -88,7 +88,7 @@
             </div>
         </header>
     </div>
-    {{-- {!! ads_home_page_top() !!} --}}
+    {!! ads_home_page_top() !!}
     @if ($features->count() > 0)
         <section id="features" class="section-content">
             <div class="container">
@@ -119,7 +119,21 @@
             </div>
         </section>
     @endif
-
+    @if (licenseType(2))
+        @if (showPlansByInterval(1)->count() > 0 || showPlansByInterval(2)->count() > 0 || showPlansByInterval(3)->count() > 0)
+            <section id="pricing" class="section-content bg">
+                <div class="container">
+                    <div class="section-content-header text-center mb-4">
+                        <p class="section-content-title h2 mb-3">{{ lang('Pricing', 'home page') }}</p>
+                        <div class="col-lg-8 col-xl-6 mx-auto">
+                            <p class="text-muted">{{ lang('Pricing description', 'home page') }}</p>
+                        </div>
+                    </div>
+                    @include('frontend.global.includes.plans')
+                </div>
+            </section>
+        @endif
+    @endif
     @if ($blogArticles->count() > 0 && $settings['website_blog_status'])
         <section id="blog" class="section-content">
             <div class="container">
@@ -176,7 +190,7 @@
             </div>
         </section>
     @endif
-   {{-- {!! ads_home_page_bottom() !!} --}}
+    {!! ads_home_page_bottom() !!}
     @if ($faqs->count() > 0 && $settings['website_faq_status'])
         <section id="faq" class="section-content bg-primary">
             <div class="container">

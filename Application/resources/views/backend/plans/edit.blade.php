@@ -277,7 +277,7 @@
         <script>
             "use strict";
             $(function() {
-                $('.Vironeer-color-picker').colorpicker();
+                $('.vironeer-color-picker').colorpicker();
             });
         </script>
     @endpush

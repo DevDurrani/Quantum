@@ -118,6 +118,6 @@
         </table>
     </div>
     @push('styles_libs')
-        <link rel="stylesheet" href="{{ asset('assets/vendor/libs/Vironeer/Vironeer-icons.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendor/libs/vironeer/vironeer-icons.min.css') }}">
     @endpush
 @endsection

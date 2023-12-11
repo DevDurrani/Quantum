@@ -52,7 +52,7 @@ class SmtpController extends Controller
         }
         $encryption = array('tls', 'ssl');
         if (!in_array($request->mail_encryption, $encryption)) {
-            toastr()->error(__('Vironeer error, please refresh page and try again'));
+            toastr()->error(__('Encryption error, please refresh page and try again'));
             return back();
         }
 

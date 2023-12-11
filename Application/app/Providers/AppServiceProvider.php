@@ -43,7 +43,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
 
-        if (config('Vironeer.install.complete')) {
+        if (config('vironeer.install.complete')) {
 
             $this->app->bind('path.public', function () {
                 return base_path() . '/../';
