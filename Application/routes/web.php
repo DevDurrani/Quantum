@@ -255,12 +255,13 @@ Route::group(localizeOptions(), function () {
             });
         });
     });
+    
     Route::group(['namespace' => 'Frontend', 'middleware' => ['verified', '2fa.verify']], function () {
         Route::post('upload', 'UploadController@upload');
         Route::post('plan/{id}/{type}', 'SubscribeController@subscribe')->name('subscribe')->middleware('saas');
         Route::middleware('isSubscribed')->group(function () {
             Route::get('/', 'HomeController@index')->name('home');
-            Route::get('contact-us', 'PageController@contact')->name('contact');
+            Route::get('contact-us', 'PageController@contactus')->name('contactus');
             Route::post('contact-us/send', 'PageController@contactSend');
             Route::get('page/{slug}', 'PageController@pages')->name('page');
             Route::name('blog.')->prefix('blog')->middleware('disable.blog')->group(function () {
