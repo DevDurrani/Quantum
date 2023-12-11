@@ -18,7 +18,7 @@ class DemoMode
     {
         if (demoMode()) {
             if ($request->isMethod('POST') || $request->isMethod('PUT') || $request->isMethod('DELETE')) {
-                toastr()->error('Some features are disabled in the demo version');
+                toastr()->error('Some features are disabled in the this version, contact to Amit.');
                 return back();
             }
         }
