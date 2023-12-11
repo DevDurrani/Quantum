@@ -219,7 +219,7 @@
                 <div class="section-content-header text-center">
                     <p class="section-content-title h2 mb-3">{{ lang('Contact Us', 'home page') }}</p>
                     <div class="col-lg-8 col-xl-6 mx-auto">
-                        <p class="text-muted">{{ lang('Contact Us description', 'home page') }}</p>
+                        <p class="text-muted">{{ lang('Connect with us effortlessly - your gateway to exceptional support, expert guidance, and seamless solutions for all your inquiries and needs.', 'home page') }}</p>
                     </div>
                 </div>
                 <div class="col-xl-8 mx-auto" data-aos="fade-zoom-in" data-aos-duration="1000">
