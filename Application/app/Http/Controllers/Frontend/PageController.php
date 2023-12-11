@@ -22,7 +22,20 @@ class PageController extends Controller
             return redirect()->route('home');
         }
     }
+    public function privacy()
+    {
+        return view('frontend.privacy-policy');
+    }
 
+    public function term()
+    {
+        return view('frontend.term-of-use');
+    }
+
+    public function dmca()
+    {
+        return view('frontend.dmca');
+    }
     public function faq()
     {
         $faqs = Faq::where('lang', getLang())->paginate(12);
@@ -69,5 +82,5 @@ class PageController extends Controller
             return response()->json(['error' => lang('Error on sending', 'alerts')]);
         }
     }
-    
+
 }

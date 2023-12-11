@@ -1,4 +1,4 @@
 <footer>
     <p class="mb-0"> &copy; <span data-year></span> {{ $settings['website_name'] }} -
-        {{ __('All rights reserved. Devloper Gaurav Gupta ') }}
+        {{ __('All rights reserved By Gaurav Gupta ') }}
 </footer>

@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b36e40ce-3609-4c3a-a330-202923ef4be2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/app/Http/Helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/Http/Helpers/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/resources/views/backend/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/backend/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/Http/Controllers/Frontend/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/Http/Controllers/Frontend/PageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/resources/views/backend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/backend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/resources/views/frontend/dmca.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/frontend/dmca.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/resources/views/frontend/privacy-policy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/frontend/privacy-policy.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/resources/views/frontend/term-of-use.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/frontend/term-of-use.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +231,7 @@
       <workItem from="1702241681157" duration="1543000" />
       <workItem from="1702273603818" duration="17452000" />
       <workItem from="1702311590901" duration="593000" />
+      <workItem from="1702318642874" duration="913000" />
     </task>
     <servers />
   </component>
