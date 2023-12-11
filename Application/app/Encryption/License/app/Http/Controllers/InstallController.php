@@ -1,6 +1,6 @@
 <?php
 
-namespace App\vironeer\License\App\Http\Controllers;
+namespace App\Encryption\License\App\Http\Controllers;
 
 use App\Models\Admin;
 use App\Models\Settings;
