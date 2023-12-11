@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vironeer\License;
+namespace Vironeer\License;
 
 use App\Http\Kernel;
 use Illuminate\Routing\Router;
@@ -14,7 +14,7 @@ use Vironeer\License\App\Http\Middleware\SaasMiddleware;
 
 class VironeerLicenseServiceProvider extends ServiceProvider
 {
-    protected $namespace = 'App\Vironeer\License\App\Http\Controllers';
+    protected $namespace = 'Vironeer\License\App\Http\Controllers';
 
     public function boot()
     {

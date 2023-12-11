@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vironeer\License\App\Http\Controllers;
+namespace Vironeer\License\App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
