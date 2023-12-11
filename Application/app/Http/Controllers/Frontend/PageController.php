@@ -69,19 +69,5 @@ class PageController extends Controller
             return response()->json(['error' => lang('Error on sending', 'alerts')]);
         }
     }
-    public function privacyPolicy()
-    {
-        abort_if(!settings('website_contact_form_status'), 404);
-        return view('frontend.privacy-policy');
-    }
-    public function termofUse()
-    {
-        abort_if(!settings('website_contact_form_status'), 404);
-        return view('frontend.term-of-use');
-    }
-    public function Dmca()
-    {
-        abort_if(!settings('website_contact_form_status'), 404);
-        return view('frontend.dmca');
-    }
+    
 }

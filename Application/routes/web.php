@@ -281,9 +281,6 @@ Route::group(localizeOptions(), function () {
             });
         });
     });
-    Route::get('/privacy-policy', 'PageController@privacyPolicy')->name('privacy.policy');
-    Route::get('/term-of-use', 'PageController@termofUse')->name('term.of.use');
-    Route::get('/dmca', 'PageController@Dmca')->name('dmca');
     Route::get('cookie/accept', 'Frontend\ExtraController@cookie')->middleware('ajax.only');
     Route::get('popup/close', 'Frontend\ExtraController@popup')->middleware('ajax.only');
     if (config('vironeer.install.complete') && !settings('website_language_type')) {
