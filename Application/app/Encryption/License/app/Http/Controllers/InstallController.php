@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Encryption\License\App\Http\Controllers;
+namespace App\vironeer\License\App\Http\Controllers;
 
 use App\Models\Admin;
 use App\Models\Settings;
@@ -30,7 +30,7 @@ class InstallController extends Controller
 
     public function requirements()
     {
-        if (config('Encryption.install.requirements')) {
+        if (config('vironeer.install.requirements')) {
             return redirect()->route('install.permissions');
         }
 
@@ -68,8 +68,8 @@ class InstallController extends Controller
 
     public function permissions()
     {
-        if (config('Encryption.install.file_permissions')) {return redirect()->route('install.licence');}
-        if (!config('Encryption.install.requirements')) {return redirect()->route('install.requirements');}
+        if (config('vironeer.install.file_permissions')) {return redirect()->route('install.licence');}
+        if (!config('vironeer.install.requirements')) {return redirect()->route('install.requirements');}
 
         $error = 0;
         $permissions = filePermissions();
@@ -91,11 +91,11 @@ class InstallController extends Controller
 
     public function licence()
     {
-        if (config('Encryption.install.license')) {
+        if (config('vironeer.install.license')) {
             return redirect()->route('install.information.database');
         }
 
-        if (!config('Encryption.install.file_permissions')) {
+        if (!config('vironeer.install.file_permissions')) {
             return redirect()->route('install.requirements');
         }
 
@@ -111,11 +111,11 @@ class InstallController extends Controller
 
     public function database()
     {
-        if (config('Encryption.install.database_info')) {
+        if (config('vironeer.install.database_info')) {
             return redirect()->route('install.information.databaseImport');
         }
 
-        if (!config('Encryption.install.license')) {
+        if (!config('vironeer.install.license')) {
             return redirect()->route('install.licence');
         }
 
@@ -157,11 +157,11 @@ class InstallController extends Controller
 
     public function databaseImport()
     {
-        if (config('Encryption.install.database_import')) {
+        if (config('vironeer.install.database_import')) {
             return redirect()->route('install.information.building');
         }
 
-        if (!config('Encryption.install.database_info')) {
+        if (!config('vironeer.install.database_info')) {
             return redirect()->route('install.information.database');
         }
 
@@ -211,11 +211,11 @@ class InstallController extends Controller
     public function building()
     {
 
-        if (!config('Encryption.install.database_import')) {
+        if (!config('vironeer.install.database_import')) {
             return redirect()->route('install.information.databaseImport');
         }
 
-        if (config('Encryption.install.complete')) {
+        if (config('vironeer.install.complete')) {
             return redirect('/');
         }
 

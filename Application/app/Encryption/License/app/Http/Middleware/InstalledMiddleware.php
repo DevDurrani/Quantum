@@ -8,7 +8,7 @@ class InstalledMiddleware
 {
     public function handle($request, Closure $next)
     {
-        if (config('Encryption.install.complete')) {
+        if (config('vironeer.install.complete')) {
             return redirect('/');
         }
         return $next($request);
