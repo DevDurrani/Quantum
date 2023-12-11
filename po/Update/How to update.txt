@@ -1,7 +1,0 @@
-
-How to update?
-
-1 -  Upload Update/files.zip to your current directory
-2 -  Extract it and click replace
-
-
