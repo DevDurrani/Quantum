@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b36e40ce-3609-4c3a-a330-202923ef4be2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/resources/views/frontend/dmca.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/frontend/dmca.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/resources/views/frontend/privacy-policy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/frontend/privacy-policy.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/resources/views/frontend/term-of-use.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/frontend/term-of-use.blade.php" afterDir="false" />
     </list>
@@ -227,7 +228,7 @@
       <workItem from="1702241681157" duration="1543000" />
       <workItem from="1702273603818" duration="17452000" />
       <workItem from="1702311590901" duration="593000" />
-      <workItem from="1702318642874" duration="1458000" />
+      <workItem from="1702318642874" duration="1659000" />
     </task>
     <servers />
   </component>

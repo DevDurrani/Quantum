@@ -1,10 +1,11 @@
 @extends('frontend.layouts.pages')
-@section('title', lang('Privacy Po'))
+@section('title', lang('DMCA'))
 @section('header_version', 'v2')
 @section('content')
     <div class="container">
         <div class="section-content col-lg-7 m-auto">
         <div>
+            <h1>DMCA</h1>
 
             <p>This Digital Millennium Copyright Act Policy (“Policy”) applies to the <b>https://qsafe.hustleandstyle.com</b> website (“Website” or “Service”) and any of its related products and services (collectively, “Services”) and outlines how this Website operator (“Operator”, “we”, “us” or “our”) addresses copyright infringement notifications and how you (“you” or “your”) may submit a copyright infringement complaint.</p>
 
@@ -18,7 +19,7 @@
 
 
 
-            <p>Please note that if you are unsure whether the material you are reporting is in fact infringing, you may wish to contact an attorney before filing a notification with us. Our DMCA page was generated with the help of the RaptorKit's <a href="https://raptorkit.com/dmca-generator/">Free DMCA Generator</a>.</p>
+            <p>Please note that if you are unsure whether the material you are reporting is in fact infringing, you may wish to contact an attorney before filing a notification with us.</p>
 
 
 

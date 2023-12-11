@@ -5,7 +5,7 @@
     <div class="container">
         <div class="section-content col-lg-7 m-auto">
 
-            <h1>Terms and Conditions for</h1>
+            <h1>Terms and Conditions</h1>
 
             <p> Welcome to <b>QuantumSafe</b> </p>
             <p> These terms and conditions outline the rules and regulations for the use of <b>QuantumSafe</b>, located at <b>https://qsafe.hustleandstyle.com</b>.</p>
