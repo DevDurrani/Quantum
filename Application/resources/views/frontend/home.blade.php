@@ -204,11 +204,11 @@
                             </div>
                         </div>
                     @endforeach
-                    <div class="d-flex justify-content-end mt-4">
+                    <!-- <div class="d-flex justify-content-end mt-4">
                         <a href="{{ route('faq') }}" class="link-white fs-6">
                             {{ lang('Find out more answers on our FAQ', 'home page') }}<i
                                 class="fa fa-arrow-right fa-sm ms-1"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
