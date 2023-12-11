@@ -95,7 +95,7 @@
                 <div class="section-content-header text-center">
                     <p class="section-content-title h2 mb-3">{{ lang('Features', 'home page') }}</p>
                     <div class="col-lg-8 col-xl-6 mx-auto">
-                        <p class="text-muted">{{ lang('Features description', 'home page') }}</p>
+                        <p class="text-muted">{{ lang('Embrace the future of data management with our cloud storage solution. Enjoy the freedom of seamless access from anywhere, thanks to automatic syncing across devices. ', 'home page') }}</p>
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
