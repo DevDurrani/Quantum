@@ -37,7 +37,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Encryption
+    | Session Vironeer
     |--------------------------------------------------------------------------
     |
     | This option allows you to easily specify that all of your session data

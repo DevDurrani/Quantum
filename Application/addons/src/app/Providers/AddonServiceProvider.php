@@ -15,7 +15,7 @@ class AddonServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Encryption\Addons\App\Http\Controllers';
+    protected $namespace = 'Vironeer\Addons\App\Http\Controllers';
 
     /**
      * Bootstrap any application services.

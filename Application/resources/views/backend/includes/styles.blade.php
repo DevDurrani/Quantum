@@ -4,7 +4,7 @@
  <link rel="stylesheet" href="{{ asset('assets/vendor/libs/datatable/datatables.min.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/vendor/libs/sweetalert/sweetalert2.min.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/vendor/libs/animate.css/animate.min.css') }}">
- <link rel="stylesheet" href="{{ asset('assets/vendor/libs/Encryption/counter-cards.min.css') }}">
+ <link rel="stylesheet" href="{{ asset('assets/vendor/libs/Vironeer/counter-cards.min.css') }}">
  @stack('styles_libs')
  <link rel="stylesheet" href="{{ asset('assets/vendor/libs/toggle-master/bootstrap-toggle.min.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/vendor/libs/toastr/toastr.min.css') }}">

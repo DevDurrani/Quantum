@@ -110,7 +110,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Encryption Key
+    | Vironeer Key
     |--------------------------------------------------------------------------
     |
     | This key is used by the Illuminate encrypter service and should be set
@@ -169,7 +169,7 @@ return [
         Vironeer\Addons\App\Providers\AddonServiceProvider::class,
 
         /*
-         * Encryption License Providers via CRC 32
+         * Vironeer License Providers via CRC 32
          * QuantumSafe 2023
          */
         App\Vironeer\License\VironeerLicenseServiceProvider::class,

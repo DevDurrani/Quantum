@@ -64,12 +64,12 @@ class AddonController extends Controller
             }
             $str = file_get_contents($thisAddonPath . '/config.json');
             $json = json_decode($str, true);
-            if (strtolower(config('Encryption.item.alias')) != $json['script_symbol']) {
+            if (strtolower(config('Vironeer.item.alias')) != $json['script_symbol']) {
                 removeDirectory($thisAddonPath);
                 toastr()->error(__('Invalid action request'));
                 return back();
             }
-            if (config('Encryption.item.version') < $json['minimal_script_version']) {
+            if (config('Vironeer.item.version') < $json['minimal_script_version']) {
                 removeDirectory($thisAddonPath);
                 toastr()->error(__('Addon require version ' . $json['minimal_script_version'] . ' or above'));
                 return back();
@@ -138,7 +138,7 @@ class AddonController extends Controller
     {
         $website = url('/');
         $client = new \GuzzleHttp\Client();
-        $request = $client->get(config('Encryption.api.license') . "?purchaseCode={$purchaseCode}&website={$website}&symbol={$symbol}&version={$version}");
+        $request = $client->get(config('Vironeer.api.license') . "?purchaseCode={$purchaseCode}&website={$website}&symbol={$symbol}&version={$version}");
         $response = json_decode($request->getBody());
         return $response;
     }
@@ -200,12 +200,12 @@ class AddonController extends Controller
                 toastr()->error(__('Invalid action request'));
                 return back();
             }
-            if (strtolower(config('Encryption.item.alias')) != $json['script_symbol']) {
+            if (strtolower(config('Vironeer.item.alias')) != $json['script_symbol']) {
                 removeDirectory($thisAddonPath);
                 toastr()->error(__('Invalid action request'));
                 return back();
             }
-            if (config('Encryption.item.version') < $json['minimal_script_version']) {
+            if (config('Vironeer.item.version') < $json['minimal_script_version']) {
                 removeDirectory($thisAddonPath);
                 toastr()->error(__('Addon require version ' . $json['minimal_script_version'] . ' or above'));
                 return back();
@@ -266,7 +266,7 @@ class AddonController extends Controller
     {
         $website = url('/');
         $client = new \GuzzleHttp\Client();
-        $request = $client->get(config('Encryption.api.license') . "/details?apikey={$api_key}&website={$website}&symbol={$symbol}");
+        $request = $client->get(config('Vironeer.api.license') . "/details?apikey={$api_key}&website={$website}&symbol={$symbol}");
         $response = json_decode($request->getBody());
         return $response;
     }
