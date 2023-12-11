@@ -47,10 +47,10 @@
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
             "Vironeer\\": "app/vironeer/",
-            "Vironeer\\License\\": "app/vironeer/License/",
-            "Vironeer\\License\\App\\": "app/vironeer/License/app",
             "Vironeer\\Addons\\": "addons/src/",
-            "Vironeer\\Addons\\App\\": "addons/src/app/"
+            "Vironeer\\Addons\\App\\": "addons/src/app/",
+            "Vironeer\\License\\": "app/vironeer/License/",
+            "Vironeer\\License\\App\\": "app/vironeer/License/app"
         },
         "files": [
             "app/Http/Helpers/Helper.php",
