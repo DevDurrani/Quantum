@@ -272,7 +272,7 @@ Route::group(localizeOptions(), function () {
             Route::get('faq', 'PageController@faq')->name('faq');
             Route::get('privacy', 'PageController@privacy')->name('privacy');
             Route::get('dmca', 'PageController@dmca')->name('dmca');
-            Route::get('terms', 'PageController@terms')->name('terms');
+            Route::get('terms', 'PageController@term')->name('term');
             Route::name('file.')->namespace('File')->group(function () {
                 Route::get('{shared_id}/password', 'PasswordController@index');
                 Route::post('{shared_id}/password', 'PasswordController@unlock')->name('password');
