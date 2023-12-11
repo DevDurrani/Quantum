@@ -346,7 +346,7 @@
     @push('scripts')
         <script>
             $(function() {
-                $('.vironeer-color-picker').colorpicker();
+                $('.Vironeer-color-picker').colorpicker();
                 let tagsInput = $('.tagsInput');
                 tagsInput.tagsinput({
                     cancelConfirmKeysOnEmpty: false

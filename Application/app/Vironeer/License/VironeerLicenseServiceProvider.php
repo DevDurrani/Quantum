@@ -35,7 +35,7 @@ class VironeerLicenseServiceProvider extends ServiceProvider
             $this->loadRoutesFrom(__DIR__ . '/Routes.php');
         });
 
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'vironeer');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'Vironeer');
 
     }
     public function registerHelpers()

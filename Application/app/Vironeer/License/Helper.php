@@ -2,7 +2,7 @@
 
 function licenseType($type = null)
 {
-    $licenseType = config('vironeer.system.license_type');
+    $licenseType = config('Vironeer.system.license_type');
     if ($type) {
         return ($type == $licenseType) ? true : false;
     } else {

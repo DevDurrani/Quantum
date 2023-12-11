@@ -829,7 +829,7 @@ function languages()
 
 function localizeOptions()
 {
-    if (config('vironeer.install.complete')) {
+    if (config('Vironeer.install.complete')) {
         if (settings('website_language_type')) {
             return [
                 'prefix' => LaravelLocalization::setLocale(),
@@ -837,7 +837,7 @@ function localizeOptions()
             ];
         } else {
             return [
-                'middleware' => ['vironeer.localize', 'UserStatusCheck', 'notInstalled'],
+                'middleware' => ['Vironeer.localize', 'UserStatusCheck', 'notInstalled'],
             ];
         }
     } else {

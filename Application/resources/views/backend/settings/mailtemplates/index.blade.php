@@ -124,7 +124,7 @@
         <script>
             $(function() {
                 autosize($('textarea'));
-                $('.vironeer-color-picker').colorpicker();
+                $('.Vironeer-color-picker').colorpicker();
             });
         </script>
     @endpush

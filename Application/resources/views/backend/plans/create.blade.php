@@ -239,7 +239,7 @@
         <script>
             "use strict";
             $(function() {
-                $('.vironeer-color-picker').colorpicker();
+                $('.Vironeer-color-picker').colorpicker();
             });
         </script>
     @endpush

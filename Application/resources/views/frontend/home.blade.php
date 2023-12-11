@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="{{ asset('assets/vendor/libs/swiper/swiper-bundle.min.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.min.css') }}">
         @if (subscription()->is_subscribed)
-            <link rel="stylesheet" href="{{ asset('assets/vendor/libs/vironeer/vironeer-icons.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/vendor/libs/Vironeer/Vironeer-icons.min.css') }}">
         @endif
     @endpush
     @include('frontend.includes.styles')
