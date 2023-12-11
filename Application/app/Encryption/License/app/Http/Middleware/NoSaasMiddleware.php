@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vironeer\License\App\Http\Middleware;
+namespace App\Encryption\License\App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
