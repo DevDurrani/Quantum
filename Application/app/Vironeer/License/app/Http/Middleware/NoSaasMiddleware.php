@@ -1,11 +1,11 @@
 <?php
 
-namespace Vironeer\License\App\Http\Middleware;
+namespace App\Vironeer\License\App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 
-class SaasMiddleware
+class NoSaasMiddleware
 {
     /**
      * Handle an incoming request.
@@ -16,7 +16,7 @@ class SaasMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if (!licenseType(2)) {
+        if (!licenseType(1)) {
             return abort(404);
         }
         return $next($request);

@@ -1,12 +1,6 @@
 <?php
 
-namespace Vironeer\License\App\Http\Controllers;
-
-use App\Models\Admin;
-use App\Models\Settings;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Validator;
+namespace App\Vironeer\License\App\Http\Controllers;
 
 class InstallController extends Controller
 {

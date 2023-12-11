@@ -1,6 +1,6 @@
 <?php
 
-namespace Vironeer\License\App\Http\Middleware;
+namespace App\Vironeer\License\App\Http\Middleware;
 
 use Closure;
 
