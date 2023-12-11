@@ -182,7 +182,7 @@
                 <div class="section-content-header text-center">
                     <p class="section-content-title h2 mb-3">{{ lang('FAQ', 'home page') }}</p>
                     <div class="col-lg-8 col-xl-6 mx-auto">
-                        <p class="section-content-text">{{ lang('FAQ description', 'home page') }}</p>
+                        <p class="section-content-text">{{ lang('Here are some advanced frequently asked questions (FAQ) for a cloud storage service', 'home page') }}</p>
                     </div>
                 </div>
                 <div class="accordion" id="accordionParent" data-aos="fade-up" data-aos-duration="1000">
