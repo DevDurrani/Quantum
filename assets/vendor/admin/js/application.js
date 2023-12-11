@@ -13,7 +13,7 @@
     if (dropdown !== null) {
         dropdown.forEach((el) => {
             let dropdownFunc = () => {
-                let sideBarLinksMenu = el.querySelector('.Vironeer-sidebar-link-menu');
+                let sideBarLinksMenu = el.querySelector('.Encryption-sidebar-link-menu');
                 if (el.classList.contains('active')) {
                     sideBarLinksMenu.style.height = sideBarLinksMenu.children.length * itemHeight + 'px';
                 } else {
@@ -21,7 +21,7 @@
                 }
             };
 
-            el.querySelector('.Vironeer-sidebar-link-title').onclick = () => {
+            el.querySelector('.Encryption-sidebar-link-title').onclick = () => {
                 el.classList.toggle('active');
                 dropdownFunc();
             };
@@ -61,9 +61,9 @@
     window.addEventListener('load', dashCountersOP);
     window.addEventListener('resize', dashCountersOP);
 
-    let sideBar = document.querySelector('.Vironeer-sidebar'),
-        pageContent = document.querySelector('.Vironeer-page-content'),
-        sideBarIcon = document.querySelector('.Vironeer-sibebar-icon');
+    let sideBar = document.querySelector('.Encryption-sidebar'),
+        pageContent = document.querySelector('.Encryption-page-content'),
+        sideBarIcon = document.querySelector('.Encryption-sibebar-icon');
     if (sideBar !== null) {
         sideBarIcon.onclick = () => {
             sideBar.classList.toggle('active');
@@ -85,7 +85,7 @@
         });
     }
 
-    let sidebarLinkCounter = document.querySelectorAll(".Vironeer-sidebar-link-title .counter");
+    let sidebarLinkCounter = document.querySelectorAll(".Encryption-sidebar-link-title .counter");
     if (sidebarLinkCounter) {
         sidebarLinkCounter.forEach((el) => {
             if (el.innerHTML == 0) {
@@ -94,7 +94,7 @@
         });
     }
 
-    let navbarLinkCounter = document.querySelectorAll(".Vironeer-notifications-title .counter");
+    let navbarLinkCounter = document.querySelectorAll(".Encryption-notifications-title .counter");
     if (navbarLinkCounter) {
         navbarLinkCounter.forEach((el) => {
             if (el.innerHTML == 0) {
@@ -298,7 +298,7 @@
     });
 
 
-    let ableToDeleteBtn = $('.Vironeer-able-to-delete');
+    let ableToDeleteBtn = $('.Encryption-able-to-delete');
     ableToDeleteBtn.on('click', function(e) {
         e.preventDefault();
         Swal.fire({
@@ -316,7 +316,7 @@
         })
     });
 
-    let confirmFormBtn = $('.Vironeer-form-confirm');
+    let confirmFormBtn = $('.Encryption-form-confirm');
     confirmFormBtn.on('click', function(e) {
         e.preventDefault();
         Swal.fire({
@@ -334,7 +334,7 @@
         })
     });
 
-    let confirmActionLink = $('.Vironeer-link-confirm');
+    let confirmActionLink = $('.Encryption-link-confirm');
     confirmActionLink.on('click', function(e) {
         e.preventDefault();
         Swal.fire({
@@ -352,11 +352,11 @@
         })
     });
 
-    let SelectImagebButton = $('.Vironeer-select-image-button');
+    let SelectImagebButton = $('.Encryption-select-image-button');
     SelectImagebButton.on('click', function() {
         var dataId = $(this).data('id');
-        let targetedImageInput = $('#Vironeer-image-targeted-input-' + dataId),
-            targetedImagePreview = $('#Vironeer-preview-img-' + dataId);
+        let targetedImageInput = $('#Encryption-image-targeted-input-' + dataId),
+            targetedImagePreview = $('#Encryption-preview-img-' + dataId);
 
         targetedImageInput.trigger('click');
         targetedImageInput.on('change', function() {
@@ -429,7 +429,7 @@
         editor.setSize(null, 400);
     }
 
-    let logsBtn = $('.Vironeer-getlog-btn'),
+    let logsBtn = $('.Encryption-getlog-btn'),
         logModal = $('#logModal');
 
     logsBtn.on('click', function(e) {
@@ -457,7 +457,7 @@
         });
     });
 
-    let changeUserAvatarInput = $('.Vironeer-user-avatar'),
+    let changeUserAvatarInput = $('.Encryption-user-avatar'),
         changeUserAvatarForm = $('#changeUserAvatarForm'),
         changeUserAvatarError = $('.image-error-icon');
 
@@ -504,13 +504,13 @@
         }
     });
 
-    let vironeerTargetMenu = $('.Vironeer-sort-menu'),
+    let vironeerTargetMenu = $('.Encryption-sort-menu'),
         idsArray = $('#ids');
 
     if (vironeerTargetMenu.length) {
         vironeerTargetMenu.sortable({
-            handle: '.Vironeer-navigation-handle',
-            placeholder: 'Vironeer-navigation-placeholder',
+            handle: '.Encryption-navigation-handle',
+            placeholder: 'Encryption-navigation-placeholder',
             axis: "y",
             update: function() {
                 const vironeerSortData = vironeerTargetMenu.sortable('toArray', {
@@ -521,7 +521,7 @@
         });
     }
 
-    let commentView = $('.Vironeer-view-comment'),
+    let commentView = $('.Encryption-view-comment'),
         viewCommentModal = $('#viewComment'),
         deleteCommentForm = $('#deleteCommentForm'),
         publishCommentForm = $('#publishCommentForm'),

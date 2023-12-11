@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vironeer\License;
+namespace App\Encryption\License;
 
 use App\Http\Kernel;
 use Illuminate\Routing\Router;
@@ -14,7 +14,7 @@ use App\Vironeer\License\App\Http\Middleware\SaasMiddleware;
 
 class VironeerLicenseServiceProvider extends ServiceProvider
 {
-    protected $namespace = 'App\Vironeer\License\App\Http\Controllers';
+    protected $namespace = 'App\Encryption\License\App\Http\Controllers';
 
     public function boot()
     {
@@ -35,7 +35,7 @@ class VironeerLicenseServiceProvider extends ServiceProvider
             $this->loadRoutesFrom(__DIR__ . '/Routes.php');
         });
 
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'Vironeer');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'Encryption');
 
     }
     public function registerHelpers()

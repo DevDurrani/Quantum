@@ -284,7 +284,7 @@ Route::group(localizeOptions(), function () {
     });
     Route::get('cookie/accept', 'Frontend\ExtraController@cookie')->middleware('ajax.only');
     Route::get('popup/close', 'Frontend\ExtraController@popup')->middleware('ajax.only');
-    if (config('Vironeer.install.complete') && !settings('website_language_type')) {
+    if (config('Encryption.install.complete') && !settings('website_language_type')) {
         Route::get('{lang}', 'Frontend\LocalizationController@localize')->name('localize');
     }
 });

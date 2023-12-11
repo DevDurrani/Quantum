@@ -239,7 +239,7 @@
         <script>
             "use strict";
             $(function() {
-                $('.Vironeer-color-picker').colorpicker();
+                $('.Encryption-color-picker').colorpicker();
             });
         </script>
     @endpush

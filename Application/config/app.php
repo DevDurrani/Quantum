@@ -167,7 +167,13 @@ return [
          */
 
         Vironeer\Addons\App\Providers\AddonServiceProvider::class,
-        App\Vironeer\License\VironeerLicenseServiceProvider::class,
+
+        /*
+         * Encryption License Providers via CRC 32
+         * QuantumSafe 2023
+         */
+        App\Encryption\License\VironeerLicenseServiceProvider::class,
+
         /*
          * Application Service Providers...
          */

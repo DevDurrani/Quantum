@@ -10,9 +10,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Application/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/Application/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Application/tests/Unit" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Application/app/Vironeer" isTestSource="false" packagePrefix="App\Vironeer\" />
-      <sourceFolder url="file://$MODULE_DIR$/Application/app/Vironeer/License" isTestSource="false" packagePrefix="App\Vironeer\License\" />
-      <sourceFolder url="file://$MODULE_DIR$/Application/app/Vironeer/License/app" isTestSource="false" packagePrefix="App\Vironeer\License\App\" />
+      <sourceFolder url="file://$MODULE_DIR$/Application/app/Encryption" isTestSource="false" packagePrefix="App\Encryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/Application/app/Encryption/License" isTestSource="false" packagePrefix="App\Encryption\License\" />
+      <sourceFolder url="file://$MODULE_DIR$/Application/app/Encryption/License/app" isTestSource="false" packagePrefix="App\Encryption\License\App\" />
       <excludeFolder url="file://$MODULE_DIR$/Application/storage/app" />
       <excludeFolder url="file://$MODULE_DIR$/Application/storage/framework" />
     </content>
