@@ -175,7 +175,7 @@
             </div>
         </section>
     @endif
-    {!! ads_home_page_bottom() !!}
+    {{-- {!! ads_home_page_bottom() !!} --}}
     @if ($faqs->count() > 0 && $settings['website_faq_status'])
         <section id="faq" class="section-content bg-primary">
             <div class="container">
