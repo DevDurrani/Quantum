@@ -11,6 +11,7 @@ use Validator;
 
 class PageController extends Controller
 {
+
     public function pages($slug)
     {
         $page = Page::where([['slug', $slug], ['lang', getLang()]])->first();
@@ -67,5 +68,17 @@ class PageController extends Controller
         } catch (\Exception $e) {
             return response()->json(['error' => lang('Error on sending', 'alerts')]);
         }
+    }
+    public function privacyPolicy()
+    {
+        return view('frontend.privacy-policy');
+    }
+    public function termofUse()
+    {
+        return view('frontend.term-of-use');
+    }
+    public function Dmca()
+    {
+        return view('frontend.dmca');
     }
 }
