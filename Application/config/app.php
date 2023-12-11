@@ -165,8 +165,9 @@ return [
         /*
          * Package Service Providers...
          */
+         
         Vironeer\Addons\App\Providers\AddonServiceProvider::class,
-        App\Vironeer\License\VironeerLicenseServiceProvider::class,
+        Vironeer\License\VironeerLicenseServiceProvider::class,
         /*
          * Application Service Providers...
          */

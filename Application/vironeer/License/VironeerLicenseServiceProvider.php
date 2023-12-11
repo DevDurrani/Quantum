@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vironeer\License;
+namespace Vironeer\License;
 
 use App\Http\Kernel;
 use Illuminate\Routing\Router;
