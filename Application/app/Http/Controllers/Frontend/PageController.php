@@ -26,7 +26,10 @@ class PageController extends Controller
     {
         return view('frontend.privacy-policy');
     }
-
+    public function gaurav()
+    {
+        return view('frontend.gaurav');
+    }
     public function term()
     {
         return view('frontend.term-of-use');
