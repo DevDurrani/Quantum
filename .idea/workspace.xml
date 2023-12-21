@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b36e40ce-3609-4c3a-a330-202923ef4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/resources/views/frontend/gaurav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/app/Http/Controllers/Frontend/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/Http/Controllers/Frontend/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/resources/views/frontend/gaurav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/resources/views/frontend/gaurav.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +227,7 @@
       <workItem from="1702311590901" duration="593000" />
       <workItem from="1702318642874" duration="1659000" />
       <workItem from="1702617133438" duration="1050000" />
-      <workItem from="1703180781797" duration="1571000" />
+      <workItem from="1703180781797" duration="1919000" />
     </task>
     <servers />
   </component>
