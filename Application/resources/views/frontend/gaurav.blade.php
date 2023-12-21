@@ -4,7 +4,7 @@
 @section('content')
     <div class="container">
         <div class="section-content col-lg-7 m-auto">
-            <p><strong> Gurav Gupta - Programming Virtuoso and Docker Maestro</strong></p>
+            <h1><strong> Gurav Gupta - Programming Virtuoso and Docker Maestro</strong></h1>
             <p>👨&zwj;💻 <strong>About Me:</strong> Hello world! I'm Gurav Gupta, a passionate and innovative software developer hailing from the vibrant world of programming. With a heart pulsating in binary and a mind that orchestrates code, I thrive on the thrill of creating seamless digital experiences.</p>
             <p>🚀 <strong>Programming Prowess:</strong> My journey in the realm of coding began with the humble "Hello, World!" and has since evolved into a symphony of languages. Proficient in languages such as Python, Java, and JavaScript, I take pride in crafting elegant and efficient solutions to complex problems. My code isn't just functional; it's a work of art.</p>
             <p>🐳 <strong>Docker Dynamo:</strong> A true Docker aficionado, I excel in containerization and orchestration. Docker is not just a tool for me; it's a canvas on which I paint scalable, portable, and consistent applications. From building containerized microservices to orchestrating them with Kubernetes, I navigate the Docker ecosystem with finesse.</p>
